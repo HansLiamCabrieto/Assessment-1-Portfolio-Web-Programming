@@ -1,0 +1,86 @@
+/* main styke */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+/* Header */
+header {
+    background-color: #17072b;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    font-family: Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+/* Underline main header, welcome and lineup (specific headers) */
+header h1,
+.welcome h2,
+.lineup h2 {
+    text-decoration: underline;
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Main Content */
+main {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Welcome */
+.welcome {
+    flex: 2;
+}
+
+.welcome img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* Sidebar */
+.lineup {
+    flex: 1;
+    background-color: #172d67;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.lineup ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lineup ul li::before {
+    content: "- ";
+}
+
+/* Footer */
+footer {
+    background-color: #8c15e9;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}

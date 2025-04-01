@@ -1,0 +1,72 @@
+/* resets everything */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling the body */
+body {
+    font-family: Arial;
+    line-height: 1.6;
+    background-color: lightgray;
+    color: black; 
+    margin: 0;
+}
+
+/* Navibzgion bar styling */
+nav {
+    background-color: darkslategray; 
+    color: white;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Section styling */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+}
+
+section h1, section h2 {
+    color: darkslategray;
+    margin-bottom: 10px;
+}
+
+/* Styling the button */
+.button-link {
+    background-color: tomato;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+/* Styling lists */
+ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+ul li {
+    margin-bottom: 10px;
+}

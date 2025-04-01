@@ -1,0 +1,35 @@
+body {
+    background-image: url('https://img.freepik.com/free-photo/digital-art-with-city-landscape-architecture_23-2151065718.jpg?t=st=1743512136~exp=1743515736~hmac=93cd93d7b6a4ded26a667653966b41d106c7cf99a28158d84dd53047943e6b73&w=1380');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; /*this is the background*/
+}
+
+.container {
+    text-align: center; /*this is for the sound board words*/
+}
+.text-to-speech textarea { /* This is for the text to speech*/
+    width: 300px;
+    height: 100px;
+    font-size: 16px;
+}
+.soundboard {
+    margin-top: 20px;  /*this is for soundboard*/
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; /*this is for the gaps between boxes*/
+}
+.sound-button {
+    padding: 15px;
+    border: none;
+    background-color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;/*this is for the button that plays the sound*/
+}
+.sound-button:hover {
+    background-color: black;
+    color: white;
+}/*this is for when the button gets hovered on*/
